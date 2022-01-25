@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+
+    <div id="cointainer">
+      <header id="head">
+        <h2>ROI Calculater</h2>
+      </header>
+      
+      <p>USD</p>
+      <label class="switch">
+        <input type="checkbox" checked>
+        <span class="slider round"></span>
+      </label>
+      <h5>CAKE</h5>
+      <input placeholder='0.000 USD'></input><br> 
+      <p>~CAKE 0.000</p>
+
+      <button class="btn">$1000</button>
+      <button class="btn">$100</button>
+      <section class="timeframe">
+        <h3>Timeframe</h3>
+        <button class="timeframe-btn">1 Day</button>
+        <button class="timeframe-btn">7 Days</button>
+        <button class="timeframe-btn">30 Days</button>
+        <button class="timeframe-btn">1 Year</button>
+        <button class="timeframe-btn">5 Year</button>
+      </section>
+      <section class="enable-accelerated">
+        <h3>Enable Accelearated APY</h3>
+
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider round"></span>
+        </label>
+
+        
+        <h4>Select Tier</h4>
+        <button class="tier-btn">Tier 1</button>
+        <button class="tier-btn">Tier 2</button>
+        <button class="tier-btn">Tier 3</button>
+        <button class="tier-btn">Tier 4</button>
+        <button class="tier-btn">Tier 5</button> <br>
+        <h5 id="shift-right">ROI at Current Rates</h5>
+        <input placeholder='0.00 USD'></input>
+        <h5>~0.000 CAKE + 0.000000 DON</h5>
+      </section>
+      <br>
+      <footer>
+        <h3>APY</h3> <h3 class="right">9.0%</h3>
+        <ul>
+          <li>Calculated based on current rates</li>
+          <li>All figures are estimates provided for your convenience only, and by no means represent returns.</li>
+        </ul>
+      </footer>
+    </div>
+
+
+  </body>
+</html>
